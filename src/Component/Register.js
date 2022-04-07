@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import styles from './register.css';
 const Register = ()=>{
     const[email, setEmail] = useState("");
     const[name, setName] = useState("");
@@ -28,6 +29,7 @@ const Register = ()=>{
     
     return(
         <div>
+
             <form action="action_page.php">
             <div class="container">
                 <h1>Register</h1>
@@ -52,10 +54,10 @@ const Register = ()=>{
             </div>
 
             <div class="container signin">
-            <p>Already have an account? <a href="#">Sign in</a>.</p>
+            <p>Already have an account? <a href="/">Sign in</a>.</p>
             </div>
         </form>
-        <button onClick={createUser}>Register</button>
+        <button className="registerbtn" onClick={createUser}>Register</button>
         </div>
         
     )

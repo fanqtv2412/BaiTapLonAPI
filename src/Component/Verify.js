@@ -8,7 +8,8 @@ const Verify = ()=>{
     const getVerificationCode = async(a)=>{
         
         const response = await axios.get("https://localhost:44334/resetpassword?email=" + a);
-        return response;  
+        
+        return response;
     }
     const checkVerificationCode = () =>{
         const data = getVerificationCode(code)

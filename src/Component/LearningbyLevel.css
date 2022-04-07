@@ -1,0 +1,35 @@
+.main-container1{
+    width: auto;
+    margin: 10px;
+    background-color: rgb(241, 238, 233);
+}
+body{
+    background-color: #5c5959;
+}
+.News{
+    text-decoration: none;
+    color: #4a4646;
+    border-style: solid;
+    border: 1px;
+}
+.News p{
+    max-inline-size: 200px;
+}
+.Descri{
+    margin: 5px;
+    border: 1px;
+    border-style: solid;
+}
+.Content{
+    display:inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100ch;
+}
+.elem{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-right: 15px;
+}

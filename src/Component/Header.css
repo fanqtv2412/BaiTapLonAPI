@@ -1,0 +1,11 @@
+button{
+    margin-left: 970px;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    border-color: bisque;
+    color: aliceblue;
+}
+button:hover{
+    background-color: cornsilk;
+    color: darkslategrey;
+}
