@@ -27,7 +27,7 @@ const Home = ()=>{
                     <div className="block">
                         <div className="inside">
                             <div>
-                                Easy level will help you getting started 
+                                Hard level will help you getting started 
                             </div>
                             <div>
                                 <Link to=""><button className='btn btn-success'>Medium</button></Link>
